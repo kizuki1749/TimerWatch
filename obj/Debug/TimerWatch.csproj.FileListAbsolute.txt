@@ -1,0 +1,10 @@
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\bin\Debug\TimerWatch.exe.config
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\bin\Debug\TimerWatch.exe
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\bin\Debug\TimerWatch.pdb
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.Form1.resources
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.Form2.resources
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.Properties.Resources.resources
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.exe
+D:\Visual Studio 2015\Projects\TimerWatch\TimerWatch\obj\Debug\TimerWatch.pdb
