@@ -399,6 +399,24 @@ namespace TimerWatch
             label1.Text = time.ToString();
         }
 
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton5.Checked == true)
+            {
+                label8.Visible = true;
+                label8.Text = "練習";
+            }
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton6.Checked == true)
+            {
+                label8.Visible = true;
+                label8.Text = "延長";
+            }
+        }
+
         /*
         終わり
         */
