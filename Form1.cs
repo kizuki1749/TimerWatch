@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -373,6 +375,28 @@ namespace TimerWatch
         public Label form1labelsiai
         {
             get { return label8; }
+        }
+        string[] stArrayData;
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            time = new TimeSpan(int.Parse(stArrayData[0]), int.Parse(stArrayData[1]), int.Parse(stArrayData[2]));
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            label3.Text = numericUpDown2.Value.ToString();
+            label5.Text = textBox2.Text;
+        }
+        TimeSpan preset = new TimeSpan(00,00,00);
+        private void button16_Click_1(object sender, EventArgs e)
+        {
+            time = new TimeSpan(int.Parse(numericUpDown3.Value.ToString()), int.Parse(numericUpDown4.Value.ToString()),int.Parse(numericUpDown5.Value.ToString()));
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            label1.Text = time.ToString();
         }
 
         /*
